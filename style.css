@@ -1,8 +1,16 @@
 header {
-  background-color: #ff2800;
+  background-color: #19256b;
   height: 100px;
 }
 
 body {
-  background-image: url("_site/assets/01.jpeg");
+  background-image: url("03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.site-title {
+  color: #fff !important;
+  font-size: 50px;
+  padding-top: 20px;
 }
