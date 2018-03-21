@@ -1,3 +1,8 @@
+header {
+  background-color: #ff2800;
+  height: 100px;
+}
+
 body {
-  background-color: blue;
+  background-image: url("_site/assets/01.jpeg");
 }
