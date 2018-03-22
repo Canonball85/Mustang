@@ -1,17 +1,4 @@
 ---
-title: Mustang Blog
+title:
 layout: home
 ---
-
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Code and Furious</title>
-  <link rel="stylesheet" href="style.css">
-  
-</head>
-<body>
-
-  <script src="script.js"></script>
-</body>
-</html>
