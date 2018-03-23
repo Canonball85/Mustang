@@ -7,6 +7,7 @@
 
 }
 
+
 /**
  * Reset some basic elements
  */
@@ -16,6 +17,57 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
+
+p {
+  font-size: 30px;
+  background-color: #1e246b;
+  color: white;
+  text-align: center;
+}
+
+.post-list-heading {
+    font-size: 40px !important;
+}
+
+
+/* ======= Contact =========== */
+.purchase-now {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.purchase-now p {
+  color: #dfdfdf;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn--purchase-now:focus,
+.btn-purchase-now:visited
+{
+  background-color: #fff;
+  border: 1px solid #129CF3;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.btn-purchase-now:hover {
+  background-color: #1274B1;
+  border-color: #316B90;
+}
+
+
+
+
 
 
 
@@ -36,6 +88,7 @@ body {
   font-kerning: normal;
 }
 
+
 header {
   background-color: #1e246b;
   height: 90px;
@@ -48,49 +101,81 @@ a.site-title {
   padding-top: 12px;
 }
 
-a:link {
-  text-decoration:none !important;
-  cursor: default;
-}
-
 .logomust {
-margin-right: 200px;
+margin-top: -68px;
+margin-left: 80px;
 }
 
-<<<<<<< HEAD
-/* ======= btn-actualites =========== */
-.btn-actu {
-  background-color: #1a1a1a;
+.post-title {
+font-size: 28px !important;
+letter-spacing: -1px;
+line-height: 1;
+color: #fff;
+text-align: center;
 }
 
-.btn-actu,
-.btn-actu:active,
-.btn-actu:focus,
-.btn-actu:visited
-{
-  background-color: #1e246b;
+h1.post-title {
+  padding-top: 20px;
+}
+
+
+
+
+
+/* ======== CONTACT =========== */
+.contact-us-form .form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  color: black;
+  background-color: #fff;
   border: 1px solid #1e246b;
-  color: #fff;
   border-radius: 3px;
-  padding: 15px 35px;
-  text-transform: uppercase;
+  margin-bottom: 15px;
+  opacity: .8;
+  outline: 0px !important;
   transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s;
 }
 
-.btn-actu:hover {
-  background-color: #fff;
-  border-color: #316B90;
+#message {
+  height: 117px;
+  resize: none;
 }
 
-.footer-col {
-  margin-top: 110px;
-  margin-left: 780px;
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+  background-color: white;
+  border: 1px solid #1e246b;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #1e246b;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
 }
-=======
->>>>>>> 4531b58c308686500141928afc634d9113b7eaff
+
+.submit-btn:hover {
+  background: #1e246b;
+  color: #fff;
+  border-color: #1e246b;
+}
+
+
+
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

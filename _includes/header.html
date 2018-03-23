@@ -7,7 +7,6 @@
 
     {%- if page_paths -%}
       <nav class="site-nav">
-         <img class="logomust" src="../img/logo.jpeg" alt="Mustang logo" height="84" width="84"> 
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -23,11 +22,12 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link btn btn-primary btn-purchase-now" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a> 
             {%- endif -%}
           {% endfor -%}
         </div>
       </nav>
     {%- endif -%}
   </div>
+  <img class="logomust" src="https://turn5.scene7.com/is/image/Turn5/383829?$prodpg640x480$" alt="Mustang logo" height="84" width="84">
 </header>
