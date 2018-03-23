@@ -1,7 +1,7 @@
 ---
 title: Contact
-layout: page
 permalink: "/about/"
+layout: page
 ---
 
 <div class="contact-us-form">
