@@ -18,6 +18,54 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+p {
+  font-size: 30px;
+  background-color: #1e246b;
+  color: white;
+  text-align: center;
+}
+
+.post-list-heading {
+    font-size: 40px !important;
+}
+
+
+/* ======= Btn-Contact Home =========== */
+.btn-contact {
+  background-color: #1e246b;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn-contact,
+.btn-contact:active,
+.btn-contact:focus,
+.btn-contact:visited
+{
+  background-color: #fff;
+  border: 1px solid #129CF3;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.btn-contact:hover {
+  background-color: #1e246b;
+  border-color: #fff;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+
+
+
+
+
 
 
 /**
@@ -51,17 +99,25 @@ a.site-title {
 }
 
 .logomust {
-margin-top: -75px;
+margin-top: -68px;
 margin-left: 80px;
 }
 
 .post-title {
-font-size: 42px;
+font-size: 28px !important;
 letter-spacing: -1px;
 line-height: 1;
 color: #fff;
 text-align: center;
 }
+
+h1.post-title {
+  padding-top: 20px;
+}
+
+
+
+
 
 /* ======== CONTACT =========== */
 .contact-us-form .form-control {
@@ -70,8 +126,9 @@ text-align: center;
   height: 50px;
   padding: 6px 12px;
   font-size: 14px;
+  font-weight: bold;
   line-height: 21px;
-  color: #555;
+  color: black;
   background-color: #fff;
   border: 1px solid #1e246b;
   border-radius: 3px;
