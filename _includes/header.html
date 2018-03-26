@@ -22,11 +22,11 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-<<<<<<< HEAD
-            <a class="page-link btn-contact" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a> 
-=======
-            <a class="page-link btn btn-primary btn-purchase-now" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a> 
->>>>>>> 16aa50980510d5fc9011e97b44465f26cd759ffd
+
+            <a class="page-link btn-contact" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+
+            <a class="page-link btn btn-primary btn-purchase-now" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+
             {%- endif -%}
           {% endfor -%}
         </div>
