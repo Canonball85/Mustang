@@ -24,7 +24,7 @@
             {%- if my_page.title -%}
 
             <a class="page-link btn-contact" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-
+          <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
             {%- endif -%}
           {% endfor -%}
         </div>
