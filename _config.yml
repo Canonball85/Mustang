@@ -8,12 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-author:
-email:
+author: 
+email: 
 description: ''
-twitter_username:
+twitter_username: 
 github_username: jekyll
-rss:
+rss: 
 show_excerpts: false
 minima:
   date_format: "%b %-d, %Y"
@@ -26,4 +26,4 @@ gems:
 - algoliasearch-jekyll
 algolia:
   application_id: DXUK9YZI5K
-  index_name: index.md # You can replace that with whatever name you want
+  index_name: index.md
